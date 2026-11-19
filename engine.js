@@ -3,12 +3,12 @@
 /*
  * Motor esférico 360° próprio.
  * Dependências externas: nenhuma. Renderização: WebGL 1.0 nativo.
- * Imagem padrão: ./image/nasa.png (equiretangular, proporção 2:1).
+ * Imagem padrão: ./image/nasa2.png (equiretangular, proporção 2:1).
  * Opcional: window.TOUR_CONFIG antes de engine.js, com { image: 'caminho.jpg' }.
  */
 (() => {
   const CONFIG = Object.assign({
-    image: './image/nasa.png',
+    image: './image/nasa2.png',
     sphereSegments: 96,
     sphereRings: 48,
     initialYaw: 0,
